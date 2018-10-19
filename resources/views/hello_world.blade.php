@@ -79,11 +79,10 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    HeLLo Laravel
+                    HeLLo World
                 </div>
-
                 <div class="links">
-                    <a href={{ url('/') }}</a>
+                    <a href="{{ url('/') }}">Home</a>
                     <a href="{{ url('/hello') }}">secondary</a>
                 </div>
             </div>
